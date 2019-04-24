@@ -1,0 +1,21 @@
+<div fxFlexFill fxLayout="column" class="mat-typography">
+	<mat-toolbar color="primary">
+		<span>Welcome to {{ title }}!</span>
+	</mat-toolbar>
+
+	<div fxFlex fxLayout="row">
+		<app-nav></app-nav>
+
+		<div fxLayout="column">
+			<div style="text-align:center">
+				<h1>
+
+				</h1>
+			</div>
+
+			<router-outlet></router-outlet>
+		</div>
+	</div>
+
+	<footer></footer>
+</div>
